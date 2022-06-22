@@ -48,7 +48,7 @@ export const Dashboard = () => {
         </PageSection>
           <PageSection >
           <Gallery hasGutter style={{ display:"flex" }}>
-            <Card style={{width: "35%"}}>
+            <Card isRounded style={{width: "35%"}}>
               <CardTitle>
                 <Title headingLevel="h1" size="xl">
                   Red Hat App Studio Details
@@ -79,10 +79,10 @@ export const Dashboard = () => {
                 </DescriptionList>
               </CardBody>
             </Card>
-            <Card style={{width: "65%"}}>
+            <Card isRounded isCompact style={{width: "65%"}}>
               <CardTitle>
                 <Title headingLevel="h2" size="xl">
-                  Tests Summary
+                  Red Hat App Studio known bugs
                 </Title>
               </CardTitle>
             </Card>

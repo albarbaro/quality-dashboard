@@ -4,6 +4,7 @@ go 1.16
 
 require (
 	entgo.io/ent v0.9.1
+	github.com/andygrunwald/go-jira v1.15.1
 	github.com/dgraph-io/ristretto v0.1.0
 	github.com/google/uuid v1.3.0
 	github.com/gorilla/mux v1.8.0

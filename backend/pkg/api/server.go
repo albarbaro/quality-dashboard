@@ -79,6 +79,7 @@ func NewServer(config *Config, logger *zap.Logger) (*Server, error) {
 
 func (s *Server) registerHandlers() {
 	s.router.HandleFunc("/api/version", s.versionHandler).Methods("GET")
+	s.router.HandleFunc("/api/jira/known/get", s.jiraIssueKnown).Methods("GET")
 	s.router.HandleFunc("/api/quality/workflows/get", s.listWorkflowsHandler).Methods("GET")
 	s.router.HandleFunc("/api/quality/repositories/list", s.listRepositoriesHandler).Methods("GET")
 	s.router.HandleFunc("/api/quality/repositories/create", s.repositoriesCreateHandler).Methods("POST")
