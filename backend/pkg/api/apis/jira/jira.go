@@ -1,4 +1,4 @@
-package pollon
+package factory
 
 import (
 	"fmt"
@@ -19,7 +19,7 @@ type clientFactory struct {
 }
 
 func (t *clientFactory) NewJiraClient() (*jira.Client, error) {
-	transport := TokenAuthTransport{Token: "NzM3MzQ4NjI2NDIyOoZY5Wua1BN1VURUEjre6zI68KUC"}
+	transport := TokenAuthTransport{Token: "aaa+ss"}
 	return jira.NewClient(transport.Client(), "https://issues.redhat.com")
 }
 
