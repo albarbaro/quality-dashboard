@@ -91,7 +91,7 @@ export const Dashboard = () => {
               <Grid md={4} style={{margin: "auto 5px"}}>
               <GridItem style={{margin: "5px"}}>
                 <Card>
-                  <CardBody style={{minHeight: "200px", paddingTop: "30%", textAlign: "center"}}>
+                  <CardBody style={{minHeight: "200px", margin: "auto 5px", textAlign: "center"}}>
                     <Title headingLevel="h1" size={TitleSizes['4xl']}>70</Title>
                     <p>Blocker</p>
                   </CardBody>
@@ -100,7 +100,7 @@ export const Dashboard = () => {
 
               <GridItem style={{margin: "5px"}}>
                 <Card>
-                  <CardBody style={{minHeight: "200px", paddingTop: "30%", textAlign: "center"}}>
+                  <CardBody style={{minHeight: "200px", margin: "auto 5px", textAlign: "center"}}>
                   <Title headingLevel="h1" size={TitleSizes['4xl']}>0</Title>
                     <p>Critical</p>
                   </CardBody>
@@ -109,7 +109,7 @@ export const Dashboard = () => {
 
               <GridItem style={{margin: "5px"}}>
                 <Card>
-                  <CardBody style={{minHeight: "200px", paddingTop: "30%", textAlign: "center"}}>
+                  <CardBody style={{minHeight: "200px", margin: "auto 5px", textAlign: "center"}}>
                   <Title headingLevel="h1" size={TitleSizes['4xl']}>234</Title>
                     <p>Major</p>
                   </CardBody>
