@@ -91,27 +91,33 @@ export const Dashboard = () => {
               <Grid md={4} style={{margin: "auto 5px"}}>
               <GridItem style={{margin: "5px"}}>
                 <Card>
-                  <CardBody style={{minHeight: "200px", margin: "auto 5px", textAlign: "center"}}>
+                <CardBody style={{display: "flex", alignItems: "center", justifyContent: "center", minHeight: "200px", margin: "auto 5px", textAlign: "center"}}>
+                  <div>
                     <Title headingLevel="h1" size={TitleSizes['4xl']}>70</Title>
                     <p>Blocker</p>
+                  </div>  
                   </CardBody>
                 </Card>
               </GridItem>
 
               <GridItem style={{margin: "5px"}}>
                 <Card>
-                  <CardBody style={{minHeight: "200px", margin: "auto 5px", textAlign: "center"}}>
-                  <Title headingLevel="h1" size={TitleSizes['4xl']}>0</Title>
-                    <p>Critical</p>
+                <CardBody style={{display: "flex", alignItems: "center", justifyContent: "center", minHeight: "200px", margin: "auto 5px", textAlign: "center"}}>
+                    <div>
+                      <Title headingLevel="h1" size={TitleSizes['4xl']}>3</Title>
+                      <p>Critical</p>
+                    </div>
                   </CardBody>
                 </Card>
               </GridItem>
 
               <GridItem style={{margin: "5px"}}>
                 <Card>
-                  <CardBody style={{minHeight: "200px", margin: "auto 5px", textAlign: "center"}}>
-                  <Title headingLevel="h1" size={TitleSizes['4xl']}>234</Title>
+                  <CardBody style={{display: "flex", alignItems: "center", justifyContent: "center", minHeight: "200px", margin: "auto 5px", textAlign: "center"}}>
+                    <div>
+                    <Title headingLevel="h1" size={TitleSizes['4xl']}>234</Title>
                     <p>Major</p>
+                    </div>
                   </CardBody>
                 </Card>
               </GridItem>
