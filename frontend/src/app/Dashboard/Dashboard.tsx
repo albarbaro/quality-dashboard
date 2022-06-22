@@ -9,6 +9,9 @@ import {
   TextContent,
   Text,
   Title,
+  Grid,
+  GridItem,
+  TitleSizes,
   DescriptionList, DescriptionListGroup, DescriptionListTerm, DescriptionListDescription
 } from '@patternfly/react-core';
 import { TableComponent } from '@app/Repositories/TableComponent';
@@ -85,6 +88,34 @@ export const Dashboard = () => {
                   Red Hat App Studio known bugs
                 </Title>
               </CardTitle>
+              <Grid md={4} style={{margin: "auto 5px"}}>
+              <GridItem style={{margin: "5px"}}>
+                <Card>
+                  <CardBody style={{minHeight: "200px", paddingTop: "30%", textAlign: "center"}}>
+                    <Title headingLevel="h1" size={TitleSizes['4xl']}>70</Title>
+                    <p>Blocker</p>
+                  </CardBody>
+                </Card>
+              </GridItem>
+
+              <GridItem style={{margin: "5px"}}>
+                <Card>
+                  <CardBody style={{minHeight: "200px", paddingTop: "30%", textAlign: "center"}}>
+                  <Title headingLevel="h1" size={TitleSizes['4xl']}>0</Title>
+                    <p>Critical</p>
+                  </CardBody>
+                </Card>
+              </GridItem>
+
+              <GridItem style={{margin: "5px"}}>
+                <Card>
+                  <CardBody style={{minHeight: "200px", paddingTop: "30%", textAlign: "center"}}>
+                  <Title headingLevel="h1" size={TitleSizes['4xl']}>234</Title>
+                    <p>Major</p>
+                  </CardBody>
+                </Card>
+              </GridItem>
+            </Grid>
             </Card>
           </Gallery>
           </PageSection>
